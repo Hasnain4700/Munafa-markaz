@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "notifications": {
+      "$workerId": {
+        ".indexOn": ["timestamp"]
+      }
+    },
+    "notification_history": {
+      ".indexOn": ["timestamp"]
+    }
+  }
+} 
